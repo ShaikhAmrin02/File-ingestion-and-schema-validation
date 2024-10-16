@@ -1,0 +1,27 @@
+file_type: csv
+dataset_name: IPL_BallByBall2008_2024_(Updated)
+file_name: /kaggle/input/indian-premier-league-ipl-2008-2024/IPL_BallByBall2008_2024(Updated)
+table_name: ball_by_ball
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - match_id
+    - date
+    - season
+    - batting_team
+    - bowling_team
+    - innings_no
+    - ball_no
+    - bowler
+    - striker
+    - non_striker
+    - score_wicket
+    - player_out
+    - extras
+    - wicket_confirmation
+    - wicket_type
+    - runs_scored
+    - score
+    - type_of_extras
+    - fielders_involved

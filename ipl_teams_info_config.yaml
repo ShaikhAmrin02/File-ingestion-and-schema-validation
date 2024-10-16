@@ -1,0 +1,15 @@
+file_type: csv
+dataset_name: ipl_teams_2024_info
+file_name: /kaggle/input/indian-premier-league-ipl-2008-2024/ipl_teams_2024_info
+table_name: teams_info
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - team_full_name
+    - team_captain_current
+    - team_coach_current
+    - team_home_ground_current
+    - number_of_ipl_titles
+    - team_owners
+    - team_about
